@@ -36,4 +36,4 @@ def template_match(template, image, popup = True):
                     plt.show()
             return templateCenter, img, offset
 
-Test = template_match("Path to image template","Path to original image", "Popup value as int")
+Test = template_match("testTemp.jpg","testImg.jpg") #Popup value is already set to True
